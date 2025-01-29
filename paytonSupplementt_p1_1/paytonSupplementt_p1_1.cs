@@ -31,7 +31,7 @@ public class paytonSupplementt_p1_1
 
     public static double AreaOfTriangle(double triBase, double triHeight)
     {
-        throw new NotImplementedException();
+        return triBase * triHeight / 2;
     }
 
 

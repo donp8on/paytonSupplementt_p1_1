@@ -5,5 +5,17 @@
         public static double AreaOfRect(double len, double wid) {
             throw new NotImplementedException();
         }
+
+        public static double AreaOfCircle(double radius)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static double AreaOfTriangle(double triBase, double triHeight)
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 } 

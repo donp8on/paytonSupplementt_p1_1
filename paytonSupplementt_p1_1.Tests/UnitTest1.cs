@@ -19,4 +19,10 @@ public class UnitTest1
     {
         Assert.True(double.Pi == paytonSupplementt_p1_1.AreaOfCircle(1.0));
     }
+
+    [Fact]
+    public void ShouldCalcAreaOfTriangle()
+    {
+        Assert.True(100.0 == paytonSupplementt_p1_1.AreaOfTriangle(50.0, 4.0));
+    }
 }

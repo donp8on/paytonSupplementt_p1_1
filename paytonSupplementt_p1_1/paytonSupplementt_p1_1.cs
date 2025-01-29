@@ -19,6 +19,11 @@ public class paytonSupplementt_p1_1
         
     }
 
+    /// <summary>
+    /// Returns the area of a unit circle.
+    /// </summary>
+    /// <param name="radius">Length of the radius.</param>
+    /// <returns>The area of a circle with a given radius.</returns>
     public static double AreaOfCircle(double radius)
     {
         return double.Pow(radius, 2) * double.Pi;

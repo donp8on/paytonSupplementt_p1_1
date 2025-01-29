@@ -4,7 +4,12 @@ public class paytonSupplementt_p1_1
 {
     public static double AreaOfRect(double len, double wid)
     {
-        return len * wid;
+        if (len == wid) {
+            return len * len;
+        } else {
+            return len * wid;
+        }
+        
     }
 
     public static double AreaOfCircle(double radius)

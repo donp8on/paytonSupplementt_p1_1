@@ -29,6 +29,12 @@ public class paytonSupplementt_p1_1
         return double.Pow(radius, 2) * double.Pi;
     }
 
+    /// <summary>
+    /// Returns the are of a triangle.
+    /// </summary>
+    /// <param name="triBase">Length of the triangle's base.</param>
+    /// <param name="triHeight">Length of the triangle's height</param>
+    /// <returns>The are of a triangle with a given base and height.</returns>
     public static double AreaOfTriangle(double triBase, double triHeight)
     {
         return triBase * triHeight / 2;

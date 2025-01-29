@@ -2,6 +2,13 @@
 
 public class paytonSupplementt_p1_1
 {
+    /// <summary>
+    /// Returms the area of a rectangle. If the length equal to the width, 
+    /// the calculation is completed as length*length instead.
+    /// </summary>
+    /// <param name="len">Length of rectangle.</param>
+    /// <param name="wid">Width of rectangle.</param>
+    /// <returns>Area of the rectangle</returns>
     public static double AreaOfRect(double len, double wid)
     {
         if (len == wid) {

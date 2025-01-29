@@ -21,7 +21,7 @@ public class paytonSupplementt_p1_1
 
     public static double AreaOfCircle(double radius)
     {
-        throw new NotImplementedException();
+        return double.Pow(radius, 2) * double.Pi;
     }
 
     public static double AreaOfTriangle(double triBase, double triHeight)
